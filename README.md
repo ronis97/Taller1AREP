@@ -1,30 +1,57 @@
-# Drawing Figurines
+# Primer taller de AREP
 
-## Autor: Edgar Ronaldo Henao V.
+API Spark web que recoge datos JSON
+
+## Preparacion
+
+Clonamos el repositorio con la siguiente instrucción en consola:
+
+```
+git clone https://github.com/ronis97/Taller1AREP.git
+```
+Entramos a la carpeta creada:
+
+```
+cd SparkWebApp
+```
+
+### Prerrequisitos
+
+Necesitamos de:
+* Maven
+* VS code
+
+Para una correcta ejecucion del aplicativo.
+
+### Instalacion
+
+Ejecutamos la siguiente instruccion en consola:
+
+```
+mvn package
+```
+
+con esto maven se encargara de descargar todos los recursos necesarios para la ejecucion del aplicativo.
+
+Para ejecutar el programa simplemente corremos la instrucción:
+
+```
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.sparkweb.SparkWebApp" 
+```
+
+En el navegador entramos con la dirección:
+
+```
+http://localhost:4567
+```
 
 
 
-### Descripción del producto
-Aplicativo web desarrollado con Javascript (react) en el cliente y Java en el servidor, el proposito es desarrollar dibujos usando figuras geometricas básicas
-(triangulo, rectangulo y circulo) modificando el tamaño como se desee, el color e incluso hasta para lograr mayor exactitud con coordenadas (x,y). Se hace uso de la libreria p5 de javascript y el framework spring para el backend.
 
-### Historias de uso
+### Ejecucion
 
-Historias de uso en [wiki](https://github.com/ronis97/ProyectoARSW/wiki)
-
-### Javadocs
-
-[(javadocs)](https://ronis97.github.io/ProyectoARSW/) 
-El link anterior presenta la documentacion realizada del back-end.
-
-
-### Despliegue heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://proyectoarsw2022.herokuapp.com)
-
-### Licencia
-
-Este proyecto esta bajo la licencia [GNU General Public License v2.0]() de uso libre. 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://vast-badlands-50797.herokuapp.com)
 
 
 
+### Diagrama de clases
