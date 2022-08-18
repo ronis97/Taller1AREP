@@ -4,16 +4,21 @@
     <h2>HTML Forms</h2>
     <form action="/stockService">
       Stock:<br />
-      <input type="text" name="stock" value="MSFT\" />
-      <br /> Time Series:<br />
-      <input type="text" name="time_series" value="INTRADAY" />
-
+      <input type="text" name="stock" value="MSFT" />
+      <br />
+      Time Series:<br />
+      <select name="time_series">
+        <option value="INTRADAY">Intraday</option>
+        <option value="DAILY">Daily</option>
+        <option value="WEEKlY">Weekly</option>
+        <option value="MONTHLY">Monthly</option>
+      </select>
       <br /><br />
       <input type="submit" value="Submit" />
     </form>
     <p>
-      If you click the \"Submit\" button, the form-data will be sent to a page
-      called \"/results\".
+      If you click the Submit button, the form-data will be sent to a page
+      called results.
     </p>
   </body>
 </html>

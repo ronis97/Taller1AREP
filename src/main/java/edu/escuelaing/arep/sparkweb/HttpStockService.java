@@ -38,7 +38,7 @@ public abstract class HttpStockService {
         String stock = req.queryParams("stock");
         //System.out.println("-----");
         // System.out.println(stock);
-        // System.out.println(timeSeries);
+         System.out.println(timeSeries);
          URL obj = new URL(getURL(timeSeries, stock));
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");

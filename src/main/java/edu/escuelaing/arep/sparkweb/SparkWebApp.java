@@ -6,9 +6,7 @@ import spark.Response;
 import static spark.Spark.*;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+
 
 public class SparkWebApp {
     private static final MemoryCache<String, String> memoryCache = new MemoryCache<String,String>(5000,5000,100);
