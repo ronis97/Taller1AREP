@@ -23,7 +23,7 @@ Necesitamos de:
 
 Para una correcta ejecucion del aplicativo.
 
-### Instalacion
+### Ejecucion
 
 Ejecutamos la siguiente instruccion en consola:
 
@@ -48,10 +48,8 @@ http://localhost:4567
 
 
 
-### Ejecucion
+### Despliegue
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://vast-badlands-50797.herokuapp.com)
 
 
-
-### Diagrama de clases
