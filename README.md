@@ -45,8 +45,13 @@ En el navegador entramos con la dirección:
 http://localhost:4567
 ```
 
+Podemos visualizar la ventana donde podemos escoger el stock, y el time series
 
+![](https://github.com/ronis97/Taller1AREP/blob/main/imgs/index.PNG)
 
+Le damos click a submit y veremos el formato JSON del stock solicitado.
+
+![](https://github.com/ronis97/Taller1AREP/blob/main/imgs/JSON%20result.PNG)
 
 ### Despliegue
 
