@@ -39,12 +39,7 @@ public class SparkWebApp {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        if (memoryCache.get(req.url()) == null){
-            memoryCache.put(req.url(),response);
-            return response;
-        }else {
-            return memoryCache.get(req.url());
-        }
+        return response;
     }
 
     private static String iexService(Request req, Response res){
